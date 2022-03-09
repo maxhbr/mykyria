@@ -78,13 +78,13 @@ module base() {
                 }
             }
         }
-            translate([-20,18,0.3])
-                rotate([180,0,180])
-                linear_extrude(0.31)
-                text("github.com/maxhbr",
-                        font = "Roboto Condensed:style=Light",
-                        size = 4,
-                        halign = "center");
+        translate([-20,18,0.3])
+            rotate([180,0,180])
+            linear_extrude(0.31)
+            text("github.com/maxhbr",
+                    font = "Roboto Condensed:style=Light",
+                    size = 4,
+                    halign = "center");
     }
 }
 
